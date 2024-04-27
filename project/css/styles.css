@@ -54,6 +54,10 @@ nav ul li.active-btn {
     -2px -2px 3px rgba(0, 0, 0, 0.2);
 }
 
+nav ul li:hover {
+  background-color: #d8dadf;
+}
+
 nav ul li:active {
   box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5),
     -2px -2px 3px rgba(0, 0, 0, 0.2);
@@ -64,9 +68,10 @@ nav ul li:active {
 }
 
 .card {
+  margin-left: 25%;
   width: 700px;
   height: 150px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   display: flex;
   overflow: hidden;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2),
@@ -202,6 +207,10 @@ footer {
 .form-group input[type="submit"]:active {
   box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5),
     -2px -2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.form-group input:hover {
+  background-color: #d8dadf;
 }
 
 /* ### about ### */
